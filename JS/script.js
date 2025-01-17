@@ -51,7 +51,7 @@ if (x.matches) {
 	imgSlider.innerHTML = '';
 	imgSlider.innerHTML = `
     <div class="JSinfo">
-						<h2 class="JStitle">Sportivo<br/> <span class="JSspan">5.0</span></h2>
+						<h2 class="JStitle">Ignite<br/> <span class="JSspan">V 1.0</span></h2>
 						<p class="JStext">ANUAL SPORTS MEET 2024</p>
 						<div class="JSwrapper">
 							<div class="link_wrapper">
@@ -85,7 +85,7 @@ var x = setInterval(function () {
 		document.getElementById('minutes').innerHTML = `00`;
 		document.getElementById('seconds').innerHTML = `00`;
 	} else {
-		document.getElementById('days').innerHTML = `0` + days;
+		document.getElementById('days').innerHTML =  days;
 		document.getElementById('hours').innerHTML = hours;
 		document.getElementById('minutes').innerHTML = minutes;
 		document.getElementById('seconds').innerHTML = seconds;
@@ -126,7 +126,7 @@ scrollLinks.forEach((link) => {
 		});
 	});
 });
-addEventListener('resize', (event) => {
-	autoRefresh();
-});
+// addEventListener('resize', (event) => {
+// 	autoRefresh();
+// });
 
