@@ -1,7 +1,7 @@
 let slides = document.querySelectorAll('.slide');
 let btns = document.querySelectorAll('.btn2');
 let currentSlide = 1;
-var x = window.matchMedia('(max-width: 768px)');
+var x = window.matchMedia('(max-width: 568px)');
 function autoRefresh() {
 	window.location = window.location.href;
 }
@@ -51,7 +51,7 @@ if (x.matches) {
 	imgSlider.innerHTML = '';
 	imgSlider.innerHTML = `
     <div class="JSinfo">
-						<h2 class="JStitle">Ignite<br/> <span class="JSspan">V 1.0</span></h2>
+						<h2 class="JStitle">Sportivo<br/> <span class="JSspan">5.0</span></h2>
 						<p class="JStext">ANUAL SPORTS MEET 2024</p>
 						<div class="JSwrapper">
 							<div class="link_wrapper">
