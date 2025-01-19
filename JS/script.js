@@ -40,7 +40,7 @@ if (!x.matches) {
 					return;
 				}
 				repeater();
-			}, 4000);
+			}, 4500);
 		};
 		repeater();
 	};
