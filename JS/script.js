@@ -2,9 +2,11 @@ let slides = document.querySelectorAll('.slide');
 let btns = document.querySelectorAll('.btn2');
 let currentSlide = 1;
 var x = window.matchMedia('(max-width: 568px)');
+
 function autoRefresh() {
 	window.location = window.location.href;
 }
+
 if (!x.matches) {
 	let manualNav = function (manual) {
 		slides.forEach((slide) => {
@@ -130,3 +132,9 @@ scrollLinks.forEach((link) => {
 // 	autoRefresh();
 // });
 
+// Google Analytic 
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QHDZ9M3BYS');
