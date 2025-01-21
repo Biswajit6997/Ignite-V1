@@ -54,7 +54,7 @@ if (x.matches) {
 	imgSlider.innerHTML = `
     <div class="JSinfo">
 						<h2 class="JStitle">Sportivo<br/> <span class="JSspan">5.0</span></h2>
-						<p class="JStext">ANUAL SPORTS MEET 2024</p>
+						<p class="JStext">ANUAL SPORTS MEET 2025</p>
 						<div class="JSwrapper">
 							<div class="link_wrapper">
 								<a class="registration" href="https://forms.gle/zQNMMsw2EzdHudLW7">Registration</a>
